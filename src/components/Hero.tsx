@@ -28,10 +28,10 @@ export default function Hero() {
           Tail Hub allows you to remotely access and forward physical USB devices across computers using secure, high-performance networking. Connect USB devices over the internet as if they were physically plugged into your machine.
         </p>
 
-        {/* Action Buttons */}
+        {/* Action Action Buttons */}
         <div className="mt-10 flex flex-col sm:flex-row items-center justify-center gap-4">
           <a
-            href={CLIENT_DOWNLOAD_URL}
+            href="#downloads"
             className="w-full sm:w-auto inline-flex items-center justify-center gap-2.5 px-6 py-3.5 rounded-lg bg-blue-600 hover:bg-blue-500 text-white font-semibold text-sm shadow-lg shadow-blue-500/10 transition-all cursor-pointer"
           >
             <Download className="w-4 h-4" />
